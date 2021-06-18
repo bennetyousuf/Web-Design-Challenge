@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Comparison</title>
+  </head>
+  <body>
+      <nav class = "navbar navbar-expand-lg navbar-light bg-light">
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+          </button>
+          <span class ="navbar-brand mb-0 h1">Lattitude</span>
+          <div class ="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link active" aria-current="page" href="comparison.html">Comparison</a>
+                  </li> 
+                  <li class="nav-item active">
+                    <a class="nav-link active" href="data.html">Data</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Plots
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                      <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                      <li><a class="dropdown-item" href="temperature.html">Temperature</a></li>
+                      <li><a class="dropdown-item" href="windspeed.html">WindSpeed</a></li>
+                    </ul>
+                  </li>
+              </ul>
+
+          </div>
+
+      </nav> 
+      <br>
+      <!--Content class to contain first level of text before visualizations, pending how to expand to 2 vizualizations in large screen -->
+      <div class="content">
+        <h2 class="text-left"> Comparison: Lattitude vs X</h2>
+        <hr>
+        <p class="text-left">Click any plot to get an in-depth analysis</p>
+      </div>
+      <div class="container">
+          <section class="row"> 
+              <div class="col-md-6">
+                  <div class="visual-container">
+                      <div class="images">
+                          <figcaption>vs. Max Temperature</figcaption>
+                          <a href="temperature.html"><img class="rounded-float left" src="assets/Lat_vs_MaxTemp.png" width="300px" height="200px" alt="Lattitude vs Max Temp"></a>
+                          <figcaption> vs. Humidity</figcaption>
+                          <a href="humidity.html"><img class="rounded-float right" src="assets/Lat_vs_Humidity.png" width ="300px" height="200px"alt="Lattitude vs Humidity"></a>
+                      </div>
+                  </div>
+              </div>
+          </section> 
+          <section class="row"> 
+            <div class="col-md-6">
+                <div class="visual-container">
+                    <div class="images">
+                        <figcaption>vs. Cloudiness</figcaption>
+                        <a href="cloudiness.html"><img src="assets/Lat_vs_Humidity.png" width="300px" height="200px" alt="Lattitude vs Max Temp"></a>
+                        <figcaption> vs. WindSpeed</figcaption>
+                        <a href="windspeed.html"><img src="assets/Lat_vs_Windspeed.png" width ="300px" height="200px"alt="Lattitude vs Humidity"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </div>
+      
+
+      </div>
+
+  
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
