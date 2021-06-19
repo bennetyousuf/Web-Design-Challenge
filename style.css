@@ -10,4 +10,11 @@
     padding: 10px;
     margin-left: 5%;
     color: white;
-  } */
+  } */ 
+
+
+  .visualization-font-color{
+    color:#4aaaa5;
+    font-weight: bolder;
+  } 
+  /* Be sure to use a CSS media query for the navigation menu. */
