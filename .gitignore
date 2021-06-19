@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 #ignore DS Store Ffile
-.DS_STore
+.DS_Store
