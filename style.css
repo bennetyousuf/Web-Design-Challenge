@@ -1,20 +1,29 @@
-/* .navbar-brand  {
-    :white
-  }
 
-/* .navbar-brand {
-    font-family: 'Times New Roman', Times, serif;
+
+  
+.navbar-brand-color{
     font-size: 25px;
-    font-weight: bolder;
-    background-color: rgb(20, 150, 150);
-    padding: 10px;
+    background-color:#4aaaa5;
+    padding: 5px;
     margin-left: 5%;
     color: white;
-  } */ 
+    text-decoration: none;
+    font-weight: bold;
+  }
 
 
   .visualization-font-color{
     color:#4aaaa5;
     font-weight: bolder;
+  }  
+  
+  .img-border {
+    border: 5px solid #4aaaa5;
   } 
-  /* Be sure to use a CSS media query for the navigation menu. */
+  
+  @media only screen and (max-width: 600px){
+    .media-query-navbar-color {
+      background: color #4aaaa5!important;
+    }
+  }
+  
