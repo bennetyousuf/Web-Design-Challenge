@@ -33,3 +33,5 @@ In building this dashboard, we'll create individual pages for each plot and a me
   3. Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
   4. Is responsive (using media queries). The nav must have similar behavior as the screenshots "Navigation Menu" section (notice the background color change).
   5. Finally, the website must be deployed to GitHub pages.
+
+https://bennetyousuf.github.io/Web-Design-Challenge/
