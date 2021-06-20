@@ -1,6 +1,6 @@
 
 
-  
+/* Create Lattitude logo on each Navbar by adjusting creating padding around the brand "Lattitude", backgrouind color, removing underline using text-decoration: none, and font color & weight */
 .navbar-brand-color{
     font-size: 25px;
     background-color:#4aaaa5;
@@ -11,16 +11,18 @@
     font-weight: bold;
   }
 
-
+/* Change font color and styling on pages */
   .visualization-font-color{
     color:#4aaaa5;
     font-weight: bolder;
   }  
   
+  /* Create border around desired smaller image in each Plot page */
   .img-border {
     border: 5px solid #4aaaa5;
   } 
   
+  /* Create Media query to adjust background color of navbar at max-width 600px. Use importance to override importance given to background in Bootstrap CSS for bg-light. Also place custom CSS below Bootstrap CSS to allow this to prioritized over color stying bg-light in the header of html */
   @media only screen and (max-width: 600px) {
     .media-query-navbar-color {
       background-color:  #4aaaa5!important;
